@@ -1,0 +1,33 @@
+ .avatar-mobile {
+    width: 90px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-size: 90px 90px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: aqua;
+  }
+
+  .avatar-mobile img {
+    position: absolute;
+  }
+
+  .avatar-mobile form {
+    position: absolute;
+  }
+
+  .avatar-mobile img#avatar-mobile-prev {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .avatar {
+    display: none;
+  }
